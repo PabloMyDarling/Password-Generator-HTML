@@ -1,13 +1,3 @@
-/* animations */
-@keyframes generateButton_hover {
-    to { width: 250px; }
-}
-
-@keyframes generateButton_leave {
-    to { width: 150px; }
-}
-
-/* styles */
 body {
     background-color: #ededed;
 }
@@ -38,9 +28,6 @@ body {
     border-style: none; transform: translateX(-50%);
     top: 135px; left: 50%; cursor: pointer;
 }
-
-#generateButton:hover { animation: generateButton_hover 300ms forwards; }
-#generateButton:not(:hover) { animation: generateButton_leave 300ms forwards; }
 
 #optionsFrame {
     position: fixed; transform: translate(-50%, -50%);
